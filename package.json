@@ -20,11 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mz026/universal-redux-template"
+    "url": "https://github.com/xumingliang123/twx.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mz026/universal-redux-template/issues"
+    "url": "https://github.com/xumingliang123/twx.git/issues"
   },
   "dependencies": {
     "assets-webpack-plugin": "^3.2.0",
