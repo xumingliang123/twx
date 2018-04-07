@@ -1,0 +1,84 @@
+/*全局样式*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+}
+html{
+  min-width:1300px;
+  height:100%;
+  font-family: sans-serif;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.42857;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background:#F5F5F5;
+}
+ul,li{
+  padding:0;
+  margin:0;
+  list-style:none
+}
+button:active {
+  outline: none !important;
+}
+button:hover {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+
+hr {
+  border-color: #e4e4e4;
+}
+
+h1, h2, h3, h4 {
+  color: #000;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+a {
+  color: #00aeef;
+  text-decoration: none;
+}
+a:hover {
+  color: #4cc6f4;
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+
+.has-feedback label ~ .form-control-feedback {
+  top: 27px;
+}
+
+pre {
+  margin: 0 0 20px;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+label {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+label.error {
+  position: absolute;
+  color: #f97358;
+  font-size: 13px;
+  bottom: -5px;
+}

@@ -1,28 +1,33 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
+import React, {Component} from 'react'
+import {connect} from 'react-redux'
 import Helmet from 'react-helmet'
+import Head from './shared/Header'
+import Footer from './shared/Footer'
+
 
 class App extends Component {
-  render() {
-    return (
-      <div>
-        <Helmet
-          defaultTitle="Redux real-world example"
-          titleTemplate="%s - Redux real-world example"
-          meta={[
-            {"name": "description", "content": "A boilerplate doing universal/isomorphic rendering with Redux + React-router + Express"},
-          ]}
-          htmlAttributes={{"lang": "en"}}
-        />
-        {this.props.children}
-      </div>
-    )
-  }
-}
+    constructor(props) {
+        super(props)
+        this.state = {
+            ifMeiQia: true
+        }
+    }
 
-function mapStateToProps(state) {
-  return {}
+    render(){
+        return (
+            <div>
+                <Helmet title="图纹系" />
+                <Head />
+                {this.props.children}
+                <Footer/>
+            </div>
+        )
+    }
+}
+function mapStateToProps() {
+    return {}
 }
 
 export default connect(mapStateToProps)(App)
+
+
