@@ -4,7 +4,7 @@
   width:100%;
   height:80px;
   background:#222;
-  padding:0 9%;
+  text-align:center;
   .header-logo{
     margin-top:20px;
   }
@@ -12,10 +12,11 @@
     display:inline-block;
     vertical-align: top;
     margin-left:4%;
+    width:23.3%;
     .header-nav-tag{
       color:#fff;
       font-size:20px;
-      width:112px;
+      width:25%;
       line-height:80px;
       display:inline-block;
       text-align:center;
@@ -30,6 +31,7 @@
     display:inline-block;
     vertical-align: top;
     margin-top:20px;
+    margin-left:3%;
     input{
       height:38px;
       line-height:38px;
@@ -37,8 +39,37 @@
       background:#fff;
       border-radius:19px;
       border:0;
-      padding:5px 20px;
+      padding:5px 50px 5px 20px;
+    }
+    .header-find-icon{
+      position:absolute;
+      display:inline-block;
+      right:20px;
+      top:10px;
+      cursor:pointer;
     }
   }
-
+  .header-user-icon{
+    display:inline-block;
+    margin-left:10%;
+    vertical-align: top;
+    margin-top:25px;
+    width:10%;
+    img{
+      cursor:pointer;
+    }
+    .header-car-icon{
+      display: inline-block;
+      vertical-align: top;
+      float: left;
+    }
+    .header-publish-icon{
+      margin-left:2%;
+      display:inline-block;
+    }
+    .user-icon{
+      float: right;
+      margin-top: -10px;
+    }
+  }
 }

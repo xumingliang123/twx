@@ -46,6 +46,12 @@ class Head extends React.Component {
                 </div>
                 <div className="header-search">
                     <input type="text" placeholder="输入你想要的，试试看吧！"/>
+                    <img className="header-find-icon" src="/assets/images/header-find-img.png"/>
+                </div>
+                <div className="header-user-icon">
+                    <img className="header-car-icon" src="/assets/images/car-img.png"/>
+                    <img className="header-publish-icon" src="/assets/images/publish-img.png"/>
+                    <img className="user-icon" src="/assets/images/header-user-img.png"/>
                 </div>
             </div>
         )
