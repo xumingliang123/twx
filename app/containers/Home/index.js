@@ -1,13 +1,14 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import {bindActionCreators} from 'redux'
+import BannerSolid from './partial/BannerSolid'
 
 class Home extends React.Component {
 
     render(){
         return(
             <div id="home">
-                首页
+                <BannerSolid />
             </div>
         )
     }
