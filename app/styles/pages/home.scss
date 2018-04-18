@@ -62,7 +62,7 @@
   background-color: #3CAAE6;
 }
 /*首页今日热门样式*/
-.home-todayHot{
+.home-tag-list{
   margin:0 auto;
   margin-top:30px;
   max-width:1300px;
@@ -87,7 +87,7 @@
     height:6px;
     width:30px;
     background:#FFD100;
-    margin:12px 0;
+    margin:10px 0;
   }
   .todayHot-list{
     .today-hot-item{
@@ -130,6 +130,92 @@
         margin-top:8px;
       }
     }
+  }
+}
+
+/*最新上架*/
+.hotInfo{
+  margin:0 auto;
+  margin-top:30px;
+  max-width:1300px;
+  h3{
+    font-size:20px;
+    color:#000;
+    font-weight:400;
+    text-align:left;
+    display:inline-block;
+    margin:0;
+  }
+  .look-more{
+    float:right;
+    display:inline-block;
+    height:20px;
+    line-height:20px;
+    color:#AAAAAA;
+    font-size:16px;
+  }
+  .title-bottom{
+    display:inline-block;
+    height:6px;
+    width:30px;
+    background:#FFD100;
+    margin:10px 0;
+  }
+  .todayHot-list{
+    .today-hot-item{
+      margin-right:20px;
+    }
+    .today-hot-item:last-child{
+      margin-right:0;
+    }
+    .hot-img-box{
+      position:relative;
+      img{
+        width:244px;
+        height:260px;
+        object-fit: cover;
+      }
+    }
+    .hot-info-head{
+      height:75px;
+      width:100%;
+      padding:14px 0 20px 14px;
+      border-bottom:1px solid #eee;
+      background:#fff;
+      h4{
+        color:#323232;
+        text-align:left;
+        margin:0;
+        font-size:18px;
+      }
+      .hot-icon{
+        height:18px;
+        line-height:18px;
+        margin-top:10px;
+        .icon{
+          font-size:18px;
+          color:#DDDDDD;
+        }
+        span{
+          display:inline-block;
+          color:#B5B5B5;
+          font-size:14px;
+          vertical-align: top;
+          margin-left:10px;
+          margin-right:20px;
+        }
+        span:last-child{
+          margin-right:0;
+        }
+      }
+    }
+    .hot-des{
+      height:40px;
+      width:100%;
+      background:#fff;
+
+    }
+
   }
 }
 

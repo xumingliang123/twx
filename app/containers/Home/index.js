@@ -3,6 +3,8 @@ import { connect } from 'react-redux'
 import {bindActionCreators} from 'redux'
 import BannerSolid from './partial/BannerSolid'
 import TodayHot from './partial/TodayHot'
+import Newest from './partial/Newest'
+import HotInfo from './partial/HotInfo'
 
 class Home extends React.Component {
     constructor(props) {
@@ -17,6 +19,8 @@ class Home extends React.Component {
             <div id="home">
                 <BannerSolid />
                 <TodayHot />
+                <Newest />
+                <HotInfo/>
             </div>
         )
     }

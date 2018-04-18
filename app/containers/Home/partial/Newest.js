@@ -1,18 +1,16 @@
 /**
- * banner 滑块
- * Created by xumingliang on 2018/04/15.
+ * 最新上架
+ * Created by xumingliang on 2018/04/18.
  */
 import React from 'react'
 import {bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
 import {Link} from 'react-router'
 
-class TodayHot extends React.Component {
+class Newest extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {
-
-        }
+        this.state = {}
     }
 
     render(){
@@ -62,11 +60,11 @@ class TodayHot extends React.Component {
                 url:'',
                 imgUrl:'/assets/images/home/hotDemo.jpg'
             }
-            ]
+        ]
         return(
-            <div className="home-todayHot home-tag-list">
+            <div className="Newest home-tag-list">
                 <div>
-                    <h3>今日热门</h3>
+                    <h3>最新上架</h3>
                     <span className="look-more">查看更多></span>
                 </div>
                 <span className="title-bottom" />
@@ -110,7 +108,4 @@ function mapDispatchToProps(dispatch) {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(TodayHot)
-
-
-
+export default connect(mapStateToProps, mapDispatchToProps)(Newest)
