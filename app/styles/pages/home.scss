@@ -213,7 +213,29 @@
       height:40px;
       width:100%;
       background:#fff;
-
+      padding:0 14px;
+      img{
+        width:26px;
+        height:26px;
+        vertical-align: top;
+        margin-top:7px;
+      }
+      p{
+        display:inline-block;
+        color:#999999;
+        font-size:14px;
+        margin-left:10px;
+        margin-bottom:0;
+        height:40px;
+        line-height:40px;
+      }
+      span{
+        float:right;
+        color:#999999;
+        font-size:14px;
+        height:40px;
+        line-height:40px;
+      }
     }
 
   }

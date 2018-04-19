@@ -26,6 +26,64 @@ class HotInfo extends React.Component {
                 readNumber:123,
                 commentNumber:1,
                 Fabulous:12,
+                sjsUrl:'/assets/images/header-user-img.png',
+                time:'04-19'
+            },
+            {
+                id:0,
+                title:'2018流行趋势',
+                money:99,
+                vipMoney:199,
+                studio:'图纹系',
+                url:'',
+                imgUrl:'/assets/images/home/hotDemo.jpg',
+                readNumber:123,
+                commentNumber:1,
+                Fabulous:12,
+                sjsUrl:'/assets/images/header-user-img.png',
+                time:'04-19'
+            },
+            {
+                id:0,
+                title:'2018流行趋势',
+                money:99,
+                vipMoney:199,
+                studio:'图纹系',
+                url:'',
+                imgUrl:'/assets/images/home/hotDemo.jpg',
+                readNumber:123,
+                commentNumber:1,
+                Fabulous:12,
+                sjsUrl:'/assets/images/header-user-img.png',
+                time:'04-19'
+            },
+            {
+                id:0,
+                title:'2018流行趋势',
+                money:99,
+                vipMoney:199,
+                studio:'图纹系',
+                url:'',
+                imgUrl:'/assets/images/home/hotDemo.jpg',
+                readNumber:123,
+                commentNumber:1,
+                Fabulous:12,
+                sjsUrl:'/assets/images/header-user-img.png',
+                time:'04-19'
+            },
+            {
+                id:0,
+                title:'2018流行趋势',
+                money:99,
+                vipMoney:199,
+                studio:'图纹系',
+                url:'',
+                imgUrl:'/assets/images/home/hotDemo.jpg',
+                readNumber:123,
+                commentNumber:1,
+                Fabulous:12,
+                sjsUrl:'/assets/images/header-user-img.png',
+                time:'04-19'
             }
         ]
         return(
@@ -56,7 +114,11 @@ class HotInfo extends React.Component {
                                     <span>{item.Fabulous}</span>
                                 </div>
                             </div>
-                            <div className="hot-des">123</div>
+                            <div className="hot-des">
+                                <img src={item.sjsUrl} />
+                                <p>{item.studio}</p>
+                                <span>{item.time}</span>
+                            </div>
 
                         </Link>
                     ))}
