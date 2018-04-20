@@ -1,0 +1,248 @@
+/*轮播图*/
+.homepage-banner-slider {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin-top:80px;
+}
+.swiper-container .swiper-slide, .swiper-thumbnail-container .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.homepage-banner-slider__tag {
+  width: 100%;
+  height: 100%;
+}
+.homepage-banner-slider_left {
+  width: 54px;
+  height: 46px;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 2;
+  left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all,.2s,ease .2s;
+}
+.footer_con.pc, .homepage-banner-slider__tag, .theme_house {
+  background-size: cover;
+  background-position: center center;
+}
+.homepage-banner-slider_pagination {
+  width: 100%;
+  height: 65px;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  text-align: center;
+  line-height: 65px;
+}
+.swiper-pagination-bullet {
+  display: inline-block;
+  width: 35px;
+  height: 5px;
+  border-radius: 0;
+  border: 1px solid #d0d0d0;
+  margin-left: 8px;
+  background: 0 0;
+  opacity: 1;
+}
+.homepage-banner-slider_pagination .swiper-pagination-bullet {
+  border: none;
+  background-color: rgba(0,0,0,.4);
+}
+.homepage-banner-slider_pagination .swiper-pagination-bullet-active {
+  background-color: #3CAAE6;
+}
+/*首页今日热门样式*/
+.home-tag-list{
+  margin:0 auto;
+  margin-top:30px;
+  max-width:1300px;
+  h3{
+    font-size:20px;
+    color:#000;
+    font-weight:400;
+    text-align:left;
+    display:inline-block;
+    margin:0;
+  }
+  .look-more{
+    float:right;
+    display:inline-block;
+    height:20px;
+    line-height:20px;
+    color:#AAAAAA;
+    font-size:16px;
+  }
+  .title-bottom{
+    display:inline-block;
+    height:6px;
+    width:30px;
+    background:#FFD100;
+    margin:10px 0;
+  }
+  .todayHot-list{
+    .today-hot-item{
+      margin-right:20px;
+    }
+    .today-hot-item:last-child{
+      margin-right:0;
+    }
+    .hot-img-box{
+      position:relative;
+      img{
+        width:244px;
+        height:260px;
+        object-fit: cover;
+      }
+    }
+    .hot-info{
+      width:244px;
+      height:90px;
+      background:#fff;
+      padding:20px;
+      span{
+        display:inline-block;
+        font-size:22px;
+        color:#323232;
+      }
+      img{
+        width:24px;
+        height:22px;
+        object-fit:cover;
+        float:right;
+        vertical-align: top;
+        margin-top:4px;
+        cursor:pointer;
+      }
+      h4{
+        font-size:16px;
+        color:#BBBBBB;
+        margin-bottom:0;
+        margin-top:8px;
+      }
+    }
+  }
+}
+
+/*最新上架*/
+.hotInfo{
+  margin:0 auto;
+  margin-top:30px;
+  max-width:1300px;
+  h3{
+    font-size:20px;
+    color:#000;
+    font-weight:400;
+    text-align:left;
+    display:inline-block;
+    margin:0;
+  }
+  .look-more{
+    float:right;
+    display:inline-block;
+    height:20px;
+    line-height:20px;
+    color:#AAAAAA;
+    font-size:16px;
+  }
+  .title-bottom{
+    display:inline-block;
+    height:6px;
+    width:30px;
+    background:#FFD100;
+    margin:10px 0;
+  }
+  .todayHot-list{
+    .today-hot-item{
+      margin-right:20px;
+    }
+    .today-hot-item:last-child{
+      margin-right:0;
+    }
+    .hot-img-box{
+      position:relative;
+      img{
+        width:244px;
+        height:260px;
+        object-fit: cover;
+      }
+    }
+    .hot-info-head{
+      height:75px;
+      width:100%;
+      padding:14px 0 20px 14px;
+      border-bottom:1px solid #eee;
+      background:#fff;
+      h4{
+        color:#323232;
+        text-align:left;
+        margin:0;
+        font-size:18px;
+      }
+      .hot-icon{
+        height:18px;
+        line-height:18px;
+        margin-top:10px;
+        .icon{
+          font-size:18px;
+          color:#DDDDDD;
+        }
+        span{
+          display:inline-block;
+          color:#B5B5B5;
+          font-size:14px;
+          vertical-align: top;
+          margin-left:10px;
+          margin-right:20px;
+        }
+        span:last-child{
+          margin-right:0;
+        }
+      }
+    }
+    .hot-des{
+      height:40px;
+      width:100%;
+      background:#fff;
+      padding:0 14px;
+      img{
+        width:26px;
+        height:26px;
+        vertical-align: top;
+        margin-top:7px;
+      }
+      p{
+        display:inline-block;
+        color:#999999;
+        font-size:14px;
+        margin-left:10px;
+        margin-bottom:0;
+        height:40px;
+        line-height:40px;
+      }
+      span{
+        float:right;
+        color:#999999;
+        font-size:14px;
+        height:40px;
+        line-height:40px;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+

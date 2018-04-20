@@ -1,13 +1,26 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import {bindActionCreators} from 'redux'
+import BannerSolid from './partial/BannerSolid'
+import TodayHot from './partial/TodayHot'
+import Newest from './partial/Newest'
+import HotInfo from './partial/HotInfo'
 
 class Home extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+
+        }
+    }
 
     render(){
         return(
             <div id="home">
-                首页
+                <BannerSolid />
+                <TodayHot />
+                <Newest />
+                <HotInfo/>
             </div>
         )
     }

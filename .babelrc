@@ -1,5 +1,11 @@
 {
   "presets": ["es2015", "react"],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "transform-decorators-legacy",
+    "transform-decorators"
+  ],
   "env": {
     "test": {
       "plugins": [ "babel-plugin-rewire" ]

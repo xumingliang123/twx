@@ -1,10 +1,15 @@
 @import "common/style";
-
-@import "fonts/font-awesome";
+@import "vendor/swiper";
+@import "vendor/bootstrap";
+@import 'vendor/rodal';
+@import 'vendor/rc-slider';
+@import 'vendor/share';
+@import "fonts/iconfont";
 
 @import "intro";
 @import "pages/footer";
 @import "pages/header";
+@import "pages/home";
 
 
 
